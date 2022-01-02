@@ -1,0 +1,316 @@
+:root {
+    --back-color: rgb(194, 129, 65);
+    --main-color: rgb(214, 201, 183);
+    --letter-color: rgb(110, 85, 2);
+    --hover-color: rgb(207, 186, 157);
+    
+  }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    background-color: var(--back-color);
+}
+
+.main_background{
+    background-color: var(--main-color);
+    margin: 0px auto;
+    padding-top: 0%;
+    width: 1200px;
+    height: 4870px;
+}
+
+/* MY */
+
+.main_background .header .myname_mycontact{
+    margin-top: 3%;
+    color:  var(--letter-color);
+   float: left;
+    padding-top: 0%;
+    padding-left: 6%;
+    font-size: 30px;
+    margin-left: 4%;
+    width: 35%;
+    border: 2mm ridge #CF7064;
+}
+
+.main_background .header .myphoto{
+    
+    /* text-align: right; */
+    margin-top: 3%;
+    /* padding-right: 15%; */
+    margin-right: 10%;
+    float: right;
+    object-fit: cover;
+    width: 380px;
+    border: 2mm ridge #CF7064;
+    transition: 1s;
+}
+
+.main_background .header .myphoto:hover{
+    object-fit: cover;
+    width: 450px;   
+}
+
+
+.underphoto{
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 0%;
+    float: right;
+    padding-right: 5%;
+    color: var(--letter-color);
+}
+
+
+
+.myname_mycontact .my_contact{
+    
+    padding-left: 0%;
+    color: var(--letter-color); 
+    transition: color .2s linear;
+    vertical-align: top;
+    margin: 0 4%;
+   
+}
+
+.my_contact:hover{
+    color:var(--back-color);
+}
+
+.myname_mycontact:hover{
+    background-color: var(--hover-color);
+   
+}
+
+.myname_mycontact svg{
+    transition: all ease-in-out .3s;
+    transition: transform ease-out 1s;
+    
+}
+
+.myname_mycontact svg:hover{
+    transform: rotate(-360deg);
+}
+
+
+/* NAVI */
+
+.nav{
+    margin: 0 1% 1% 1%;
+    background-color: var(--main-color);
+    text-align: right;
+    font-size: 30px;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 2mm ridge #CF7064;
+    position: sticky;
+}
+
+
+
+.nav:hover{
+    /* background-color: rgb(218, 161, 104); */
+    background-color: var(--hover-color);
+}
+
+.nav_nav{
+    color: rgb(110, 85, 2); 
+    transition: color .2s linear;
+    vertical-align: top;
+    margin: 0 3%;
+}
+
+.nav_nav:hover{
+    /* color: #CF7064; */
+     /* color:rgb(194, 129, 65); */
+     color: var(--back-color);
+}
+ 
+/* main */
+/* about me */
+
+
+
+
+
+.about_me{
+    
+    width: 100%;
+    padding-top: 10%;
+    
+    
+}
+.about_me h2{
+    margin-top: 15%;
+color: var(--letter-color);
+font-size: 55px;
+float: left;
+padding-left: 13%;
+border-bottom: 8px  ridge #CF7064;
+width: 87%;
+}
+
+.about_me p{
+    color: var(--letter-color);
+font-size: 35px;
+}
+
+.about_photo{
+    font-size: 20%;
+width: 380px;
+float: left;
+object-fit: cover;
+padding-left: 0%;
+margin-left: 4%;
+border: 2mm ridge #CF7064;
+transition: 1s;
+}
+
+.about_photo:hover{
+    object-fit: cover;
+    width: 450px;
+}
+
+
+
+.about_text{
+    float: right;
+    width: 600px;
+    border: 2mm ridge #CF7064;
+    margin-right: 4%;
+}
+
+.about_text:hover{
+    background-color: var(--hover-color);
+}
+
+/* skills */
+
+.myskills h3{
+    margin-bottom: 4%;
+    color: var(--letter-color);
+    font-size: 55px;
+    float: left;
+    padding-left: 13%;
+    border-bottom: 8px  ridge #CF7064;
+    width: 87%;
+    margin-top: 10%;
+    }
+
+  
+    
+
+    .myskills .skill_text{
+        margin-left: 8%;
+        float: left;
+        width: 1000px;
+        border: 2mm ridge #CF7064;
+        color: var(--letter-color);
+        font-size: 30px;
+        /* margin: 4%;    */
+    }
+
+    .myskills .skill_text:hover{
+        background-color: var(--hover-color);
+    }
+
+    /* mycode */
+
+    .mycode h4{
+        margin-bottom: 4%;
+        color: var(--letter-color);
+        font-size: 55px;
+        float: left;
+        padding-left: 13%;
+        border-bottom: 8px  ridge #CF7064;
+        width: 87%;
+        margin-top: 10%;
+    }
+
+    .mycode .mycodeexample{
+        position: relative;
+        margin-left: 7%;
+        float: left;
+        width: 1000px;
+        border: 2mm ridge #CF7064;
+        color: var(--letter-color);
+        font-size: 15px;
+        transition: 1s;
+    }
+
+    .mycodeexample:hover{
+        background-color: var(--hover-color);
+        /* width: 1200px; */
+        /* font-size: 25px; */
+       z-index: 10;
+        transform: scale(1.2);
+    }
+
+    /* edu_eng */
+
+    .edu_eng h5{
+        margin-bottom: 4%;
+        color: var(--letter-color);
+        font-size: 55px;
+        float: left;
+        padding-left: 13%;
+        border-bottom: 8px  ridge #CF7064;
+        width: 87%;
+        margin-top: 10%;
+    }
+
+    .edu_eng .education{
+width: 500px;
+float: left;
+border: 2mm ridge #CF7064;
+font-size: 30px;
+margin-left: 4%;
+    }
+
+    .edu_eng .education a{
+        color: var(--letter-color);
+    }
+
+    .edu_eng .english a{
+        color: var(--letter-color);
+    }
+
+
+
+    .edu_eng .english{
+width: 500px;
+float: right;
+border: 2mm ridge #CF7064;
+margin-right: 4%;
+font-size: 30px;
+    }
+
+    .edu_eng .english:hover{
+        background-color: var(--hover-color);
+    }
+
+    .edu_eng .education:hover{
+        background-color: var(--hover-color);
+    }
+
+/* footer */
+    .footer{
+        background-color: var(--hover-color);
+        height: 150px;
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .footer img{
+        object-fit: cover;
+        height: 120px;
+        padding-left: 10%;
+        padding-top: 10px;
+    }
+
+   
