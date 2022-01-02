@@ -13,7 +13,7 @@ Hi! My name is Pavel and I'm from Minsk. I am a third-year student at BSUIR. I p
   </li>
   <li>CSS</li>
   <li>HTML</li>
-  <li>C/C+++</li>
+  <li>C/C++</li>
   <li>SQL</li>
   <li>Function modeling (IDEF0, IDEF3, UML)</li>
 </ul>
