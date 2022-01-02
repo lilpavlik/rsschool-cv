@@ -132,7 +132,7 @@
         
                 workers = new Worker[amountOfWorkers];
                 checkroom = new Checkroom(workers);
-                clients = new Clients();
+                clients = new Clients();;
         
                 workers[0] = new Worker(1 * millsInSec, clients, 1);
                 workers[1] = new Worker(0.5 * millsInSec, clients, 2);
