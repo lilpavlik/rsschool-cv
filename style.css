@@ -189,7 +189,7 @@ transition: 1s;
 
 /* skills */
 
-.myskills h3{
+.myskills h2{
     margin-bottom: 4%;
     color: var(--letter-color);
     font-size: 55px;
@@ -219,7 +219,7 @@ transition: 1s;
 
     /* mycode */
 
-    .mycode h4{
+    .mycode h2{
         margin-bottom: 4%;
         color: var(--letter-color);
         font-size: 55px;
@@ -251,7 +251,7 @@ transition: 1s;
 
     /* edu_eng */
 
-    .edu_eng h5{
+    .edu_eng h2{
         margin-bottom: 4%;
         color: var(--letter-color);
         font-size: 55px;
